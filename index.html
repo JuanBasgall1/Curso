@@ -5,15 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer página</title>
 </head> <!--cabecera donde estan los metadatos que lee el navegador--> 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<body> <!--lo que tiene que ver con el usuario -->
-    <!--acá va todo lo que se muestra en la web-->
-<h1>Bienvenidos a mi app</h1>  <!--primer titulo-->
-<h2>Temas</h2>  <!--segundo titulo-->
-<h3>Base de datos</h3> 
-<h4>SQL</h4>
-<h5>NOSQL</h5>
-<h6>ReactJs</h6>
+<body> <!--acá va todo lo que se muestra en la web-->
+    <header> <!-- barra principal de arriba -->
+        Esta sería la barra principal
+        <nav><!-- barra de navegación, como un menú -->
+            <li>
+                <a href="./pages/productos.html">Productos</a>
+            </li>
+            <li>
+                <a href="./pages/sucursales.html">Sucursales</a>
+            </li>
+            <li>
+                <a href="./pages/nosotros.html">Nosotros</a>
+            </li>
+            <li>
+                <a href="./pages/atencion.html">Atencion al cliente</a>
+            </li>
+        </nav>
+    </header>
+
+    <main>
+        <section> <!-- listas ordenadas -->
+            Sección 1 
+            <h1>Listas ordenadas</h1>  <!--primer titulo-->
+            <ol>
+                <li>Arroz</li>
+                <li>Queso</li>
+                <li>Arroz</li>
+            </ol>
+        </section>
+
+        <section> <!-- listas desordenadas -->
+                Sección 2    
+                    <h2> <!--titulo--> 
+                        Listas desordenadas
+                    </h2>   
+                        <ul>comida</ul>
+                        <ul>bebida</ul>
+                        <ul>muebles</ul>
+                    <p> <!-- párrafo -->
+                        Segundo párrafo
+                    </p>
+        </section>
+    </main>
+
+    <div>    <!-- es una etiqueta genérica-->
+        Este es el div, es como un comodín
+        
+    </div>
+
+    <footer> <!-- pie de página -->
+        Instragram 
+        Facebook 
+        Twitter
+        <!-- puede tener distintos pisos -->
+        <!-- mapa de sitio: donde podes encontrar todo lo que la app ofrece -->
+    </footer>
+
 </body>
 </html>
